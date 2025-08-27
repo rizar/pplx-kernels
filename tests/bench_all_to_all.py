@@ -260,6 +260,9 @@ def _worker_bench_all_to_all(
         MoEConfig(256, 8, 7168, 32, in_dtype, out_dtype),
         MoEConfig(256, 8, 7168, 64, in_dtype, out_dtype),
         MoEConfig(256, 8, 7168, 128, in_dtype, out_dtype),
+        MoEConfig(256, 8, 7168, 256, in_dtype, out_dtype),
+        MoEConfig(256, 8, 7168, 512, in_dtype, out_dtype),
+        MoEConfig(256, 8, 7168, 1024, in_dtype, out_dtype),
     ]
 
     header = [
